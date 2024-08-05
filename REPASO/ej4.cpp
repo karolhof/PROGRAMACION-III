@@ -23,7 +23,7 @@ void menu(){
         int option;
         cout<<"¿Que desea hacer?"<<endl;
         cout<<"1. Sumar enteros"<<endl;
-        cout<<"2. Calcular area"<<endl;
+        cout<<"2. Calcular area de un círculo"<<endl;
         cout<<"3. Calcular potencia"<<endl;
         cout<<"4. Salir"<<endl;
         cin>>option;
@@ -51,7 +51,7 @@ void menu(){
                 salir=true;
                 break;
             default:
-                
+                cout<<"Opcion no valida"<<endl;
                 break;
         }
     }
